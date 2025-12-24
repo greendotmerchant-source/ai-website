@@ -1,0 +1,7 @@
+{
+  "name": "Signature Villa Apartments",
+  "description": "An elegant, luxury short-term rental platform for high-end serviced apartments in Benin City, featuring a premium aesthetic and an AI-powered concierge service.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
