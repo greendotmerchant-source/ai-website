@@ -442,3 +442,23 @@ const App: React.FC = () => {
 };
 
 export default App;
+const handleWhatsAppBooking = () => {
+  const phone = "2348088713277";
+  const message = encodeURIComponent(
+    "Hello, I want to book a villa"
+  );
+  window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
+};
+
+const handleWhatsAppConcierge = () => {
+  const phone = "2348088713277";
+  const message = encodeURIComponent(
+    "Hello, I need a private concierge (Majordomo) service"
+  );
+  window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
+};
+
+const handleEmail = () => {
+  window.location.href =
+    "mailto:greendot.merchant@gmail.com?subject=Luxury Booking Request";
+};
